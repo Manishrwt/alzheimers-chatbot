@@ -6,7 +6,7 @@ import os
 import re
 
 # ✅ Configure Gemini API
-genai.configure(api_key=st.secrets["AIzaSyB-cEawYprfMTPOTKfzuhP8sx66-HLZ5vA"])
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest")
 
 # ✅ Streamlit Setup
