@@ -1,5 +1,2 @@
 streamlit
 google-generativeai
-pyttsx3
-SpeechRecognition
-pyaudio==0.2.11; platform_system != 'Darwin'
