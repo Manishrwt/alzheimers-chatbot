@@ -10,7 +10,7 @@ genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest")
 
 # ✅ Streamlit Setup
-st.set_page_config(page_title="🧠 Alzheimer's Support Chatbot", page_icon="🧠")
+st.set_page_config(page_title="🧠 Alzheimer's Support ChatbotBY : MANISH_RAWAT", page_icon="🧠")
 st.title("🧠 Alzheimer's Support Chatbot")
 st.markdown("Welcome! This chatbot helps Alzheimer's patients with simple, friendly conversations.")
 st.info("""
